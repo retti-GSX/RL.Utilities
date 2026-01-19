@@ -54,7 +54,7 @@
 //   JPEG  ✓ no optimizations
 //   JPE   ✓ no optimizations
 //   JPG   ✓ no optimizations
-//   WebP  ✓
+//   WebP  in implementation...
 //   HDR   ✓
 //   GIF   ✓
 
