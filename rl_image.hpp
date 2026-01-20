@@ -15,14 +15,9 @@
 //                                                          \______/ 
 
 #define RLIMG_NAME "Ret Legion image"
-#define RLIMG_AUTHOR "retti"
-
-#define RLIMG_NAMESPACE_BEGIN namespace rlimg {
-#define RLIMG_NAMESPACE_END }
-#define RL_UNUSED(x) (void)(x)
 
 // --------------------------------------------------------------------------------\
-// rl_image.hpp — single‑header image decoder                                      |
+// rl_image.hpp — single-header image decoder                                      |
 // Created by retti, 2026                                                          |
 //---------------------------------------------------------------------------------|
 //                                                                                 |
@@ -50,13 +45,13 @@
 // --------------------------------------------------------------------------------/
 
 // Supported formats:
-//   PNG   ✓
+//   PNG   ✓ 8-bit only
 //   JPEG  ✓ no optimizations
 //   JPE   ✓ no optimizations
 //   JPG   ✓ no optimizations
-//   WebP  in implementation...
-//   HDR   ✓
-//   GIF   ✓
+//   WebP  partially implemented
+//   HDR   ✓ 
+//   GIF   ✓ not full support
 
 #define RLIMG_VERSION "0.2"
 
@@ -94,7 +89,6 @@
 // • Single-header implementation - just #include "rl_image.hpp"
 // • No external dependencies (except standard library)
 // • SIMD acceleration (SSE2, SSE4.1, AVX2, ARM NEON when available)
-// • Thread-safe design (except shared WebP cache)
 // • Configurable limits (image size, channels, cache size)
 // • Automatic format detection by file extension
 // • Channel conversion utilities (RGB↔RGBA, grayscale↔RGB, etc.)
