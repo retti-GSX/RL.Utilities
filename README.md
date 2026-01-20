@@ -8,7 +8,6 @@ Single‑header image decoder supporting:
 - JPEG / JPG / JPE
 - HDR
 - GIF
-Features: SIMD acceleration, channel conversion, GIF frames, no external libraries.
 
 Goals
 - Minimal, self‑contained utilities
