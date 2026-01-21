@@ -4,10 +4,8 @@ A collection of lightweight single‑header C++20 libraries designed for fast in
 Modules
 🖼 rl_image.hpp
 Single‑header image decoder supporting:
-- PNG
-- JPEG / JPG / JPE
-- HDR
-- GIF
+- PNG, TGA, HDR, BMP, DDS, QOI
+- doc in file
 
 Goals
 - Minimal, self‑contained utilities
