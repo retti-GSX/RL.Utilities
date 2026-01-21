@@ -2748,6 +2748,7 @@ public:
         
         ImageData result(width, height, channels);
         result.data = std::move(pixels);
+        result.flip_vertically();
         
         return result;
     }
